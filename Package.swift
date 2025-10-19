@@ -25,7 +25,7 @@ let package = Package(
                 "update-package.sh"
             ],
             sources: nil,
-            publicHeadersPath: "include/include_a",
+            publicHeadersPath: "include_a",
             cSettings: [
                 .define("GGML_USE_METAL", to: "1")
             ],
