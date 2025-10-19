@@ -24,7 +24,7 @@ let package = Package(
                 "split-directories.sh",
                 "update-package.sh"
             ],
-            sources: nil,
+            sources: ["src_a", "ggml_a", "ggml_b", "ggml_c"],
             publicHeadersPath: "include_a",
             cSettings: [
                 .define("GGML_USE_METAL", to: "1")
